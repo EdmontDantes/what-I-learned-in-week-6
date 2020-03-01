@@ -56,4 +56,22 @@ Methds to my Madness was the hardest so far exercise that required us to create 
   ```
   _slice_ function using str, 0(starts with index Zero) ,  i + 1 (this index of last space plus one to return that index of string character without space).
 ## No-filter
+
+No filter is assignment similar to Mapmaker where we used empty array inside of a function and _.push_ method along with for loops to "filter" original array and return new array with filtered result. below are example functions we needed to create:  
+* _onlyOdds_ - return only odds of numbers array in a new array
+* _onlyEvens_ - return only evens of numbers array in a new array
+* _shortNamesOnly_ - return new array with short names no longer than 7 characters in a new array
+* _dNames_ - return a new array with only names that start with character 'D' or 'd'
+
+
 ## 4-of-4-lyfe
+
+This was an introductory exercise in _for of_ loops.
+
+```
+for (variable of iterable) {
+  statement
+}
+```
+'variable' is an item represantation of an item in 'iterable' (array).
+we don't have to declare the variable as it is declared already in a scope of for loop and usually 'iterable' is an array that was passed as in parameter of the function. There may be more advanced cases of various uses of _for Of_ loop but we haven't gotten so far on these. From what I understand is that instead of looping through the indexes of ```for(let i=0; i<str.length;i++)``` we are looping through the items of an array and using it to our advantage in various problems.
